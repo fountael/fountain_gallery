@@ -76,8 +76,8 @@ main {
 .panel img{
   width: 100%;
 }
-/*-- BxSlider Style Corrections --*/
-ul.bxslider { /*-- corrects image position --*/
+
+ul.bxslider {
   left: -40px;
   top: -15px;
 }
@@ -95,7 +95,7 @@ a.bx-next {
 	margin-right: 10px;
 }
 /*-- Navigation Panel Styles --*/
-#main-navigation:target {/*-- sets width of nav panel when opened on small screens --*/
+#main-navigation:target {
   width: 30%;
 }
 .navigation {
@@ -110,13 +110,13 @@ a.bx-next {
 	z-index: 10000;
 	box-shadow: inset 5px 5px 0 #999, inset 0px -5px 0 #999;
 }
-.navigation h3 {/*-- positions the nav h3 element --*/
+.navigation h3 {
 	padding-top: 1rem;
 	padding-left: 1rem;
 	font-size: 1.4rem;
   line-height: 0px;
 }
-.navigation ul { /*-- removes bullets from list items --*/
+.navigation ul {
 	list-style-type: none;
   line-height: .5px;
 	font-size: .9rem;
@@ -130,13 +130,13 @@ a.bx-next {
 	background-color: #555;
 	color: #fff;
 }
-.icon-wrap { /*-- sets icon container position --*/
+.icon-wrap {
 	position: fixed;
 	z-index: 9999;
 	top: 1rem;
 	right: 1.25rem;
 }
-span.hamburger { /*-- sets nav icon apperance --*/
+span.hamburger {
 	background: rgba(255,255,255,0.8);
 	border: 2px solid #555;
 	border-radius: 8px;
@@ -149,7 +149,7 @@ span:hover.hamburger { /*-- sets nav icon color on hover --*/
 	color: #999;
 	border-color: #999;
 }
-span.x-mark { /*-- sets close icon apperance and position --*/
+span.x-mark { 
 	color: #555;
 	font-size: 3em;
 	position: absolute;
